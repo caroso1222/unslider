@@ -289,7 +289,7 @@
 		self.initSwipe = function() {
 			var width = self.$slides.width();
 
-			self.$container.on({
+			self.$container.find("li").on({
 				swipeleft: self.next,
 				swiperight: self.prev,
 
